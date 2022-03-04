@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    transition: 0.3s ease-out all;
+}
+
+body{
+    text-align: center;
+}
+
+.genius{
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    display: inline-block;
+}
+
+.genius .genius__item{
+    width: 50%;
+    height: 100px;
+    float: left;
+    border: 10px solid transparent;
+    box-sizing: border-box;
+}
+
+.genius .genius__item--clickable{
+    cursor: pointer;
+}
+
+.genius .genius__item--2{
+    background-color: rgb(0, 154, 220);
+}
+
+.genius .genius__item--2:active, .genius .genius__item--2__active{
+    border-color: rgb(0, 105, 150);
+}
+
+.genius .genius__item--1{
+    background-color: rgb(220, 0, 0);
+}
+
+.genius .genius__item--1:active, .genius .genius__item--1__active{
+    border-color: rgb(155, 0, 0);
+}
+
+.genius .genius__item--3{
+    background-color: rgb(220, 202, 0);
+}
+
+.genius .genius__item--3:active, .genius .genius__item--3__active{
+    border-color: rgb(147, 134, 0);
+}
+
+.genius .genius__item--0{
+    background-color: rgb(0, 177, 56);
+}
+
+.genius .genius__item--0:active, .genius .genius__item--0__active{
+    border-color: rgb(0, 131, 42);
+}
+
+.genius .genius__item--4{
+    width: 40%;
+    background-color: rgb(0, 0, 0);
+}
+
+.genius .genius__item--middle{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.btn__start{
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(37, 150, 211);  
+}
+
+.btn__start:hover{
+    color: #fff;
+    background-color: rgb(10, 109, 162);  
+    cursor: pointer;
+}
